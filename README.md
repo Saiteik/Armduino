@@ -9,7 +9,7 @@ https://wiki.seeedstudio.com/Seeed_Arduino_Boards/
 ## How to Use
 When powered on and connected to a DJI 03 air unit (or Caddx Vista) it will show the voltage on the goggles OSD once it is ready to arm. A PWM receiver programmed to output a high signal to D10 will send out the arm signal to the DJI VTX. If record on arm is configured in the goggles, you will see the recording begin. The bitrate should jump from ~7mbps in standby to ~50mbps indicating full power is achieved.
 
-## Wiring Guide (DO NOT FEED VBAT TO VIN)
+## Wiring Guide (DO NOT FEED VBAT TO VCC)
 
 ![Seeeduino_Diagram](https://github.com/Saiteik/Armduino/blob/main/Seeduino_XAIO_SAMD21.png?raw=true)
 
