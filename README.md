@@ -2,7 +2,7 @@
 
 ## Flashing the Firmware
 
-Download the code for Arduino, extract and open with the Arduino IDE. Before attempting to flash the seeeduino board, you will need to add the board support to the IDE with the following instructions. Once complete, verify the correct board is chosen, port is selected and upload.
+Download the code for Arduino, extract and open with the Arduino IDE. Before attempting to flash the [Seeed Studio XIAO SAMD21 used to be named as Seeeduino XIAO board](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html), you will need to add the board support to the IDE with the following instructions. Once complete, verify the correct board is chosen, port is selected and upload.
 
 https://wiki.seeedstudio.com/Seeed_Arduino_Boards/
 
