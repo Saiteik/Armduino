@@ -8,15 +8,25 @@
 #define PWM_CENTER            1500
 #define PWM_LOW               1000
 #define VOLT_PIN              1
-#define VCC_SCALE             1010    // + decreases vbat / - increases vbat
+#define VCC_SCALE             1015    // + decreases vbat / - increases vbat
 
-const float ValueR1 = 22000.0;        //  22K   Resistor
-const float ValueR2 = 5100.0;         //  5.1K  Resistor
-const float arduinoVCC = 3.3;
-const float voltageScale = arduinoVCC / VCC_SCALE;
-const int disarm_flag = 0x00000002;
-const int arm_flag = 0x00000003;
-const int next_interval_MSP = 100;
+// 4S Lipo Battery Voltage - VCC 1010
+//const float
+//  ValueR1 = 22000.0,      //  22K   Resistor
+//  ValueR2 = 5100.0;       //  5.1K  Resistor
+
+// 6S Lipo Battery Voltage - VCC 1015
+const float
+  ValueR1 = 33000.0,        //  33K   Resistor
+  ValueR2 = 4700.0;         //  4.7K  Resistor
+
+const float
+  arduinoVCC = 3.3,
+  voltageScale = arduinoVCC / VCC_SCALE;
+const int
+  disarm_flag = 0x00000002,
+  arm_flag = 0x00000003,
+  next_interval_MSP = 100;
 
 uint8_t
     sampleCount = 100,
